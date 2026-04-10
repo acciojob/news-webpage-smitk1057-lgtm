@@ -9,6 +9,7 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
+	
 }
 
 .container {
@@ -24,6 +25,7 @@ body {
     background-color: white;
     padding: 15px;
     border-radius: 10px;
+	margin:2px;
 }
 
 .latest-news-section {
