@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* important */
+    margin: 20px;
+}
+
+.latest-news-section,
+.main-news,
+.pictorial-news-section {
+    background-color: white;
+    padding: 15px;
+    width: 25%;
+    border-radius: 8px;
+    /* height remove karo agar diya hai */
+}
+img{
+	height:100px;
+	width:100px;
+}
